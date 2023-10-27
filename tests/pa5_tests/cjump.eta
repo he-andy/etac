@@ -1,0 +1,11 @@
+main(args:int[][]) {
+  a:int = 1; 
+  b:int;
+  if(a > 0) {
+    b = 1
+  }
+}
+// TEMP
+x = true 
+if(x) 
+

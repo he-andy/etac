@@ -1,0 +1,11 @@
+use io
+use conv
+
+main(args:int[][]) {
+  x:int = 5
+  if (x > 10) {  // Dead code
+    x = x + 1
+  }
+  z:int = x + x
+  println("z: " + unparseInt(z))
+}

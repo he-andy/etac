@@ -1,0 +1,57 @@
+use conv
+use io
+
+sort(a: int[]) {
+  i:int = 0
+  n:int = length(a)
+  while (i < n) {
+      j:int = i
+      while(j > 0) {
+        if (a[j-1] > a[j]) {
+            swap:int = a[j]
+            a[j] = a[j-1]
+            a[j-1] = swap
+        }
+        j = j-1
+      }
+      i = i+1
+  }
+}
+
+print_arr(a: int[]) {
+    print("[")
+    // print all but last element
+    i: int = 0
+    while(i < length(a) - 1) {
+        print(unparseInt(a[i]))
+        print(", ")
+        i = i + 1
+    }
+    // print last element, if present
+    if (length(a) > 0) 
+        print(unparseInt(a[length(a) - 1]))
+    print("]")
+}
+
+main(args: int[][]) {
+    a: int[] = {1, 2, 3, 4, 5, 6, 7, 8, 9}
+    sort(a)
+    print_arr(a)
+    println("")
+    a = {9, 8, 7, 6, 5, 4, 3, 2, 1}
+    sort(a)
+    print_arr(a)
+    println("")
+    a = {}
+    sort(a)
+    print_arr(a)
+    println("")
+    a = {1}
+    sort(a)
+    print_arr(a)
+    println("")
+    a = {-1, 6, 3, 8, 1, 0, 3}
+    sort(a)
+    print_arr(a)
+    println("")
+}

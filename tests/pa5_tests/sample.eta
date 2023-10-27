@@ -1,0 +1,7 @@
+use io 
+use conv 
+
+main(args:int[][]) {
+  print("a" + unparseInt(1))
+  // b:int = iszero(1)
+}

@@ -1,0 +1,2 @@
+./eth/eth -compilerpath . -testpath eth/tests/pa4 eth/tests/pa4/ethScript
+rm ./*.s

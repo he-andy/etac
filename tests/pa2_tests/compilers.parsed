@@ -1,0 +1,1 @@
+(((cry ((hours_slept int)) ()) (shower ((smells bool)) ()) (eat ((food ([] int))) ()) ))

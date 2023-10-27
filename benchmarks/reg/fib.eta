@@ -1,0 +1,17 @@
+use io 
+use conv 
+
+fib(n:int):int {
+  if (n <= 1) {
+    return n
+  }
+  else {
+    return fib(n - 1) + fib(n - 2)
+  }
+}
+
+main(args:int[][]) {
+  n:int = 20
+  result:int = fib(n)
+  println("fib(20) = " + unparseInt(result))
+}

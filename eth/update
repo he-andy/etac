@@ -1,0 +1,13 @@
+#!/bin/sh
+
+WEBSEMESTER=2023sp
+ETH=eth.tar.gz
+
+cd `dirname $0`/..
+wget -nv -N http://www.cs.cornell.edu/courses/cs4120/$WEBSEMESTER/project/$ETH
+if [ -f "$ETH" ]; then
+    tar -zxf $ETH -C eth
+    rm $ETH
+else
+    echo "Warning: eth not updated"
+fi

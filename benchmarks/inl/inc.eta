@@ -1,0 +1,14 @@
+use io
+use conv
+
+function increment(n:int) : int {
+  return n + 1
+}
+
+main(args:int[][]) {
+  value:int = 0
+  for (i:int = 0; i < 100; i = i + 1) {
+    value = increment(value)
+  }
+  println("Value: " + unparseInt(value))
+}

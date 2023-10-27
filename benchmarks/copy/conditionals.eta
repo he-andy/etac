@@ -1,0 +1,13 @@
+use io
+use conv
+
+main(args:int[][]) {
+  x:int = 7
+  y:int = x
+  z:int = 0
+  if (y > 5) {
+    z = y
+  }
+  w:int = z * 2
+  println("w: " + unparseInt(w))
+}

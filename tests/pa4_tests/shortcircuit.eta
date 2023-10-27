@@ -1,0 +1,7 @@
+use io 
+
+main(args:int[][]) {
+  if(false & ((1/0) > 0)) {
+    println("lgtm")
+  }
+}

@@ -1,0 +1,214 @@
+lexer = _{ SOI ~ ( token | NEWLINE | WHITE_SPACE )* ~ EOI }
+error_lexer = _{ ( token | NEWLINE | WHITE_SPACE )* }
+
+token = {
+  | keyword
+  | primitive_type
+  | op_binary 
+  | op_unary
+  | integer 
+  | char 
+  | string 
+  | bool
+  | symbol 
+  | identifier
+  | null
+}
+
+token_end_assertion = _{ !(ASCII_ALPHA | ASCII_DIGIT | "_" | "'") }
+
+//identifier
+identifier = @{ !(keyword) ~ ASCII_ALPHA ~ (ASCII_ALPHA | ASCII_DIGIT | "_" | "'")* }
+
+//integer
+integer = @{ "-"? ~ ASCII_NONZERO_DIGIT ~ ASCII_DIGIT* | "0" }
+
+//boolean
+true_lit = { "true" }
+false_lit = { "false" }
+bool = @{ (true_lit | false_lit) ~ token_end_assertion }
+null = @{ "null" ~ token_end_assertion }
+
+//string
+string = @{ "\"" ~ (raw_str | esc_str)* ~ "\"" }
+raw_str = _{ (!("\\" | "\"" | "\n") ~ ANY)+ }
+esc_str = _{"\\" ~ (predef_esc | unicode)}
+
+predef_esc = _{ "\\" | "n" | "t" | "\"" | "'"}
+unicode = _{ "x{" ~ 
+  (
+    "0" ~ ASCII_HEX_DIGIT{5}
+    | "10" ~ ASCII_HEX_DIGIT{4} 
+    | ASCII_HEX_DIGIT{1,5} 
+  ) 
+~ "}" }
+
+//character
+char = { "'" ~ ( !("\\" | "'") ~ ANY | esc_str ) ~ "'" }
+
+//keywords & symbols
+left_sq = { "[" }
+right_sq = { "]" }
+left_curly = { "{" }
+right_curly = { "}" }
+left_paren = { "(" }
+right_paren = { ")" }
+colon = { ":" }
+comma = { "," }
+semicolon = { ";" }
+underscore = { "_" }
+field = { "." }
+assign = { "=" }
+
+//bops 
+op_plus = { "+" }
+op_minus = { "-" }
+op_high_multiply = { "*>>" }
+op_multiply = { "*" }
+op_divide = { "/" }
+op_modulo = { "%" }
+op_and = { "&" }
+op_or = { "|" }
+op_geq = { ">=" }
+op_gt = { ">" }
+op_leq = { "<=" }
+op_lt = { "<" }
+op_eq = { "==" }
+op_neq = { "!=" }
+op_binary_inner = _{
+    op_plus
+  | op_minus
+  | op_high_multiply
+  | op_multiply
+  | op_divide
+  | op_modulo
+  | op_and 
+  | op_or
+  | op_geq 
+  | op_gt 
+  | op_leq 
+  | op_lt 
+  | op_eq 
+  | op_neq
+}
+op_binary = { op_binary_inner }
+
+symbol = @{ left_sq | right_sq | left_curly | right_curly | left_paren | right_paren | colon | comma | semicolon | underscore | field | assign }
+
+//uops 
+op_negation = { "-" }
+op_not = { "!" }
+op_unary_inner = _{ op_negation | op_not }
+op_unary = { op_unary_inner }
+
+//types
+int_type = { "int" }
+bool_type = { "bool" }
+empty_bracket_capture = {"[]"}
+sized_bracket_capture = {"[" ~ expr ~ "]"}
+array_sized = _{ (primitive_type | identifier) ~ 
+  (sized_bracket_capture+ ~ empty_bracket_capture*)
+}
+array_unsized = _{ (primitive_type | identifier) ~ 
+  (empty_bracket_capture+)
+}
+array = { array_sized | array_unsized }
+
+arr_base = _{ method_call | array_literal | string | identifier | ("(" ~ expr ~ ")") }
+index_list = { sized_bracket_capture+ }
+array_lv = { arr_base ~ index_list }
+array_rv = { arr_base ~ index_list }
+
+record_field_base = _{ method_call | array_lv | identifier | ("(" ~ expr ~ ")") }
+field_capture = { "." ~ expr }
+field_list = { field_capture+ }
+record_field_lv = { record_field_base ~ field_list }
+record_field_rv = { record_field_base ~ field_list }
+
+//ex {1, 2, 3}
+expr_list_terminal_comma = { ((expr ~ ("," ~ expr)* ~ ","?))? }
+array_literal = { "{" ~ expr_list_terminal_comma ~ "}" }
+
+primitive_type = @{ (int_type | bool_type) ~ token_end_assertion }
+types = { array | primitive_type | identifier}
+//excluding sized arrays for type parameters
+xsa_types = _{ !(array_sized) ~ types }
+
+//line terminator
+term = _{ ";"? }
+
+keyword = @{ ("use" | "if" | "while" | "else" | "return" | "length" | "null" | "break") ~ token_end_assertion }
+literal = _{ string | char | integer | bool | null }
+
+use_expr = { "use" ~ identifier ~ term }
+
+//wrapper to make primitive type fit into type_to_enum() 
+ptype_glob_wrapper = { primitive_type }
+glob_decl_a = { (identifier ~ ",")* ~ identifier ~ ":" ~ xsa_types }
+glob_decl_xa = { identifier ~ ":" ~ ptype_glob_wrapper }
+int_or_bool = { integer | bool }
+globdecl = { (glob_decl_xa ~ "=" ~ int_or_bool ) | glob_decl_a | record_decl } 
+// globdecl = {
+//   (identifier ~ ":" ~ ( int_type | bool_type ) ~ ("," ~ identifier ~ ":" ~ ( int_type | bool_type ) )* 
+//   ~ "=" ~ (integer | bool) ~ ("," ~ (integer | bool)* )) |
+//   (identifier ~ ":" ~ xsa_types ~ ("," ~ identifier ~ ":" ~  xsa_types)*) 
+// }
+
+definition = _{ (function | globdecl) ~ term } 
+
+arg_pair = { identifier ~ ":" ~ xsa_types } 
+args = { ( arg_pair ~ ("," ~ arg_pair)* )? }
+returns = { ":" ~ xsa_types ~ ("," ~ xsa_types)* }
+
+expr_list = { (expr ~ ("," ~ expr)*)? }
+function = { identifier ~ "(" ~ args ~ ")" ~ returns? ~ block }
+//procedure = { identifier ~ "(" ~ args ~ ")" ~ returns? ~ block }
+
+interface_function = { identifier ~ "(" ~ args ~ ")" ~ returns? }
+
+return_stmt = { "return" ~ (expr ~ ("," ~ expr)*)? ~ term }
+while_block = { "while" ~ "(" ~ expr ~ ")" ~ loop_stmt }
+
+lvalue = _{ xsa_type_decl_unit | record_field_lv | array_lv | identifier | underscore }
+lvalues = { lvalue ~ ("," ~ lvalue)* }
+rvalues = { expr ~ ("," ~ expr)* }
+assignment = { (!("{" | "(" | "\"") ~ lvalues ~ "=" ~ rvalues) | (decl_stmt) }
+//closest-if implementation
+if_stmt = {"if" ~ "(" ~ expr ~ ")" ~ stmt ~ ("else" ~ stmt)? }
+
+stmt = { (block | while_block | if_stmt | assignment | method_call | decl_stmt) ~ term }
+loop_stmt = { (loop_block | while_block | loop_if_stmt | assignment | method_call | decl_stmt | loop_break) ~ term }
+loop_break = { "break" }
+loop_block = { "{" ~ loop_stmt* ~ return_stmt_wrapper? ~ "}" }
+loop_if_stmt = {"if" ~ "(" ~ expr ~ ")" ~ loop_stmt ~ ("else" ~ loop_stmt)? }
+
+//declarations
+//multi declarations not allowed? 
+//decl_stmt = { decl_unit ~ ("," ~ decl_unit)* }
+xsa_type_decl_unit = { identifier ~ ":" ~ xsa_types}
+decl_stmt = { decl_unit }
+decl_unit = { (identifier ~ ",")* ~ identifier ~ ":" ~ types }
+record_decl = { "record" ~ identifier ~ "{" ~ (decl_unit ~ ";"?)+ ~ "}" }
+
+method_call = { identifier ~ "(" ~ expr_list ~ ")" }
+length_expr = { "length" ~ "(" ~ expr ~ ")" }
+
+return_stmt_wrapper = { return_stmt }
+block = { "{" ~ stmt* ~ return_stmt_wrapper? ~ "}" }
+
+expr_inner = { op_unary_inner* ~ primary ~ (op_binary_inner ~ op_unary_inner* ~ primary)* }
+expr = { expr_inner }
+
+primary = _{ record_field_rv | array_rv | method_call | length_expr | literal | array_literal | identifier | "(" ~ expr_inner ~ ")" }
+
+uses = { use_expr* }
+definitions = { definition+ }
+program = { SOI ~ uses ~ definitions ~ EOI }
+
+interface_definition = _{ (interface_function | record_decl) } 
+interface_definitions = { interface_definition+ }
+interface = { SOI ~ uses ~ interface_definitions ~ EOI}
+
+WHITESPACE = _{ WHITE_SPACE | NEWLINE }
+
+COMMENT = _{ "//" ~ (!NEWLINE ~ ANY)* }

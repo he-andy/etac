@@ -1,0 +1,8 @@
+makeInverse(base: int[], inv: int[]) {
+    c: int = 0
+    while (c < 26) {
+        //We have c->base[c], inv has base[c] going to c.
+        inv[base[c]] = c
+        c = c + 1
+    }
+}

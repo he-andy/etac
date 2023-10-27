@@ -1,0 +1,25 @@
+f() called
+lt() called: 0 < 7
+0
+f() called
+lt() called: 1 < 7
+1
+f() called
+lt() called: 2 < 7
+2
+f() called
+lt() called: 3 < 7
+3
+f() called
+lt() called: 4 < 7
+4
+f() called
+lt() called: 5 < 7
+5
+f() called
+lt() called: 6 < 7
+6
+f() called
+lt() called: 7 < 7
+g() called
+done

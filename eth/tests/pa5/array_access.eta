@@ -1,0 +1,7 @@
+use io
+use conv 
+
+main(args:int[][]) {
+  identity:int[][] = {{1, 0}, {0, 1}}
+  println(unparseInt(identity[0][0]))
+}

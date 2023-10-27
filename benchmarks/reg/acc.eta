@@ -1,0 +1,14 @@
+use io 
+use conv 
+
+main(args:int[][]) {
+  arr:int[100]
+  i:int = 0 
+  sum:int = 0
+  while(i < 100) {
+    arr[i] = i
+    sum = sum + arr[i]
+  }
+
+  println("Sum: " + unparseInt(sum))
+}

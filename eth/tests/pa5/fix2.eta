@@ -1,0 +1,12 @@
+use io 
+use conv 
+
+multi(x:int, y:int):int, int {
+  return x, y
+}
+
+main(args:int[][]) {
+  a:int, b:int = multi(1, 2)
+  println(unparseInt(a))
+  println(unparseInt(b))
+}

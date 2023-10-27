@@ -1,0 +1,126 @@
+# eth test script
+#
+# This file is a test script for eth (etac Test Harness).  It
+# conforms to the following grammar:
+#
+#   ScriptFile      ::= Commands+
+#   Command         ::= build
+#                     | CompilerTest
+#   CompilerTest    ::= TestKind (\(TestName\))? ([TestPath])? ("CmdLineArgs")?
+#                           { (FileTest;)* }
+#   TestKind        ::= etac
+#   TestName        ::= LitString
+#   FileTest        ::= Filenames Description? FailureSet?
+#   Filenames       ::= Filename+
+#   Description     ::= LitString
+#   FailureSet      ::= Failure (, Failure)*
+#   Failure         ::= \( ErrorKind \)
+#                     | \( ErrorKind, LitString \)
+#
+#   TestPath        :   the path to the test files, enclosed in quotes,
+#                       relative to the path given in eth's -testpath flag.
+#   CmdLineArgs     :   command-line arguments for etac
+#   Filename        :   the name of a file, interpreted from TestPath.
+#   LitString       :   a literal string, enclosed in quotes.
+#   ErrorKind       :   one of, or a unique prefix of one of the following
+#                       strings: "Leetacal Error", "Syntax Error", or
+#                       "Semantic Error".
+#
+# eth runs the commands in order of appearance.
+
+# build compiler first
+build
+
+etac ("Test --help") "--help" {
+    ;
+}
+
+etac ("Test -target linux") "-libpath $(testpath) -target linux" {
+    ex01.eta;
+    ack.eta;
+    primes.eta;
+    bubble.eta;
+    test.eta;
+    acc.eta;
+    matadd.eta;
+    arrsize.eta;
+    conditional.eta;
+    matadd2.eta;
+    matsize.eta; 
+    matadd3.eta;
+    add_mul.eta;
+    add_mul2.eta;
+    max_area.eta;
+    array_assign.eta;
+    array_access.eta;
+    array_assign_simple.eta;
+    function_fun.eta;
+    fib.eta;
+    string_add.eta;
+    arr_add.eta;
+    arr_add_bool.eta;
+    arracc05.eta;
+    assign06.eta;
+    binary01.eta;
+    binary03.eta;
+    binary05.eta;
+    binary06.eta;
+    if06.eta;
+    if10.eta;
+    localdecl13.eta;
+    localdecl14.eta;
+    while04.eta;
+    unary01.eta;
+    multiassign01.eta;
+    fix1.eta; 
+    fix2.eta;
+    fix3.eta;
+    fix6.eta;
+    fix7.eta;
+    insertion_sort.eta;
+}
+
+etac ("Test -target linux -O") "-libpath $(testpath) -target linux -O" {
+    ex01.eta;
+    ack.eta;
+    primes.eta;
+    bubble.eta;
+    test.eta;
+    acc.eta;
+    matadd.eta;
+    arrsize.eta;
+    conditional.eta;
+    matadd2.eta;
+    matsize.eta; 
+    matadd3.eta;
+    add_mul.eta;
+    add_mul2.eta;
+    max_area.eta;
+    array_assign.eta;
+    array_access.eta;
+    array_assign_simple.eta;
+    function_fun.eta;
+    fib.eta;
+    string_add.eta;
+    arr_add.eta;
+    arr_add_bool.eta;
+    arracc05.eta;
+    assign06.eta;
+    binary01.eta;
+    binary03.eta;
+    binary05.eta;
+    binary06.eta;
+    if06.eta;
+    if10.eta;
+    localdecl13.eta;
+    localdecl14.eta;
+    while04.eta;
+    unary01.eta;
+    multiassign01.eta;
+    fix1.eta; 
+    fix2.eta;
+    fix3.eta;
+    fix6.eta;
+    fix7.eta;
+    insertion_sort.eta;
+}

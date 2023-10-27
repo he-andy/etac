@@ -1,0 +1,19 @@
+ f(x:int, y:int, z:int) {
+ x = y * -z
+ x = y *>> -z
+ x = y / -z
+ x = y % -z
+
+ x = -y * z
+ x = -y *>> z
+ x = -y / z
+ x = -y % z
+ }
+
+ g(x:bool, y:bool, z:bool) {
+ x = y & !z
+ x = !y & z
+
+ x = y | !z
+ x = !y | z
+ }

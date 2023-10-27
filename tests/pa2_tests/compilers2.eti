@@ -1,0 +1,13 @@
+cry(hours_slept: int): bool
+
+shower(smells: bool): bool
+
+eat(food: int[]): bool
+
+foo() {
+  if (cry(8)) {
+    if (shower(true)) {
+      eat([1, 2, 3]);
+    }
+  }
+}

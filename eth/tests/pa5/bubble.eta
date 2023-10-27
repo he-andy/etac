@@ -1,0 +1,30 @@
+use io
+use conv
+
+bubble_sort(arr:int[]):int[] {
+  i:int = 0 
+  j:int = 0 
+  while(i < length(arr)) {
+    while(j < length(arr) - 1 - i) {
+      if(arr[j] > arr[j + 1]) {
+        temp:int = arr[j]
+        arr[j] = arr[j + 1]
+        arr[j + 1] = temp
+      }
+      j = j + 1
+    }
+    i = i + 1 
+    j = 0
+  }
+  return arr
+}
+
+main(args:int[][]) {
+  arr:int[] = {5, 4, 3, 2, 1}
+  sorted:int[] = bubble_sort(arr)
+  i:int = 0 
+  while(i < 5) {
+    println(unparseInt(sorted[i]))
+    i = i + 1
+  }
+}

@@ -1,0 +1,9 @@
+x: int = 5;
+y: int[];
+z: int;
+
+main(args: int[][]) {
+  a: int = 5;
+  b: int = 6;
+  c: int = a+ b
+}

@@ -1,0 +1,347 @@
+[
+{
+  "directory": "/Users/evanwilliams/Junior/SP23/4120/etac-emw236/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -DGC_NOT_DLL -I/Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/include -I/Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/libatomic_ops/src -g -arch ppc -arch i386 -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk   -D_CRT_SECURE_NO_DEPRECATE                  -DALL_INTERIOR_POINTERS -o CMakeFiles/gc-lib.dir/alloc.c.o -c /Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/alloc.c",
+  "file": "/Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/alloc.c"
+},
+{
+  "directory": "/Users/evanwilliams/Junior/SP23/4120/etac-emw236/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -DGC_NOT_DLL -I/Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/include -I/Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/libatomic_ops/src -g -arch ppc -arch i386 -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk   -D_CRT_SECURE_NO_DEPRECATE                  -DALL_INTERIOR_POINTERS -o CMakeFiles/gc-lib.dir/reclaim.c.o -c /Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/reclaim.c",
+  "file": "/Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/reclaim.c"
+},
+{
+  "directory": "/Users/evanwilliams/Junior/SP23/4120/etac-emw236/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -DGC_NOT_DLL -I/Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/include -I/Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/libatomic_ops/src -g -arch ppc -arch i386 -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk   -D_CRT_SECURE_NO_DEPRECATE                  -DALL_INTERIOR_POINTERS -o CMakeFiles/gc-lib.dir/allchblk.c.o -c /Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/allchblk.c",
+  "file": "/Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/allchblk.c"
+},
+{
+  "directory": "/Users/evanwilliams/Junior/SP23/4120/etac-emw236/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -DGC_NOT_DLL -I/Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/include -I/Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/libatomic_ops/src -g -arch ppc -arch i386 -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk   -D_CRT_SECURE_NO_DEPRECATE                  -DALL_INTERIOR_POINTERS -o CMakeFiles/gc-lib.dir/misc.c.o -c /Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/misc.c",
+  "file": "/Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/misc.c"
+},
+{
+  "directory": "/Users/evanwilliams/Junior/SP23/4120/etac-emw236/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -DGC_NOT_DLL -I/Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/include -I/Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/libatomic_ops/src -g -arch ppc -arch i386 -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk   -D_CRT_SECURE_NO_DEPRECATE                  -DALL_INTERIOR_POINTERS -o CMakeFiles/gc-lib.dir/mach_dep.c.o -c /Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/mach_dep.c",
+  "file": "/Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/mach_dep.c"
+},
+{
+  "directory": "/Users/evanwilliams/Junior/SP23/4120/etac-emw236/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -DGC_NOT_DLL -I/Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/include -I/Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/libatomic_ops/src -g -arch ppc -arch i386 -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk   -D_CRT_SECURE_NO_DEPRECATE                  -DALL_INTERIOR_POINTERS -o CMakeFiles/gc-lib.dir/os_dep.c.o -c /Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/os_dep.c",
+  "file": "/Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/os_dep.c"
+},
+{
+  "directory": "/Users/evanwilliams/Junior/SP23/4120/etac-emw236/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -DGC_NOT_DLL -I/Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/include -I/Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/libatomic_ops/src -g -arch ppc -arch i386 -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk   -D_CRT_SECURE_NO_DEPRECATE                  -DALL_INTERIOR_POINTERS -o CMakeFiles/gc-lib.dir/mark_rts.c.o -c /Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/mark_rts.c",
+  "file": "/Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/mark_rts.c"
+},
+{
+  "directory": "/Users/evanwilliams/Junior/SP23/4120/etac-emw236/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -DGC_NOT_DLL -I/Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/include -I/Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/libatomic_ops/src -g -arch ppc -arch i386 -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk   -D_CRT_SECURE_NO_DEPRECATE                  -DALL_INTERIOR_POINTERS -o CMakeFiles/gc-lib.dir/headers.c.o -c /Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/headers.c",
+  "file": "/Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/headers.c"
+},
+{
+  "directory": "/Users/evanwilliams/Junior/SP23/4120/etac-emw236/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -DGC_NOT_DLL -I/Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/include -I/Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/libatomic_ops/src -g -arch ppc -arch i386 -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk   -D_CRT_SECURE_NO_DEPRECATE                  -DALL_INTERIOR_POINTERS -o CMakeFiles/gc-lib.dir/mark.c.o -c /Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/mark.c",
+  "file": "/Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/mark.c"
+},
+{
+  "directory": "/Users/evanwilliams/Junior/SP23/4120/etac-emw236/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -DGC_NOT_DLL -I/Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/include -I/Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/libatomic_ops/src -g -arch ppc -arch i386 -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk   -D_CRT_SECURE_NO_DEPRECATE                  -DALL_INTERIOR_POINTERS -o CMakeFiles/gc-lib.dir/obj_map.c.o -c /Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/obj_map.c",
+  "file": "/Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/obj_map.c"
+},
+{
+  "directory": "/Users/evanwilliams/Junior/SP23/4120/etac-emw236/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -DGC_NOT_DLL -I/Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/include -I/Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/libatomic_ops/src -g -arch ppc -arch i386 -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk   -D_CRT_SECURE_NO_DEPRECATE                  -DALL_INTERIOR_POINTERS -o CMakeFiles/gc-lib.dir/blacklst.c.o -c /Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/blacklst.c",
+  "file": "/Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/blacklst.c"
+},
+{
+  "directory": "/Users/evanwilliams/Junior/SP23/4120/etac-emw236/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -DGC_NOT_DLL -I/Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/include -I/Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/libatomic_ops/src -g -arch ppc -arch i386 -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk   -D_CRT_SECURE_NO_DEPRECATE                  -DALL_INTERIOR_POINTERS -o CMakeFiles/gc-lib.dir/finalize.c.o -c /Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/finalize.c",
+  "file": "/Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/finalize.c"
+},
+{
+  "directory": "/Users/evanwilliams/Junior/SP23/4120/etac-emw236/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -DGC_NOT_DLL -I/Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/include -I/Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/libatomic_ops/src -g -arch ppc -arch i386 -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk   -D_CRT_SECURE_NO_DEPRECATE                  -DALL_INTERIOR_POINTERS -o CMakeFiles/gc-lib.dir/new_hblk.c.o -c /Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/new_hblk.c",
+  "file": "/Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/new_hblk.c"
+},
+{
+  "directory": "/Users/evanwilliams/Junior/SP23/4120/etac-emw236/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -DGC_NOT_DLL -I/Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/include -I/Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/libatomic_ops/src -g -arch ppc -arch i386 -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk   -D_CRT_SECURE_NO_DEPRECATE                  -DALL_INTERIOR_POINTERS -o CMakeFiles/gc-lib.dir/dbg_mlc.c.o -c /Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/dbg_mlc.c",
+  "file": "/Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/dbg_mlc.c"
+},
+{
+  "directory": "/Users/evanwilliams/Junior/SP23/4120/etac-emw236/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -DGC_NOT_DLL -I/Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/include -I/Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/libatomic_ops/src -g -arch ppc -arch i386 -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk   -D_CRT_SECURE_NO_DEPRECATE                  -DALL_INTERIOR_POINTERS -o CMakeFiles/gc-lib.dir/malloc.c.o -c /Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/malloc.c",
+  "file": "/Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/malloc.c"
+},
+{
+  "directory": "/Users/evanwilliams/Junior/SP23/4120/etac-emw236/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -DGC_NOT_DLL -I/Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/include -I/Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/libatomic_ops/src -g -arch ppc -arch i386 -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk   -D_CRT_SECURE_NO_DEPRECATE                  -DALL_INTERIOR_POINTERS -o CMakeFiles/gc-lib.dir/stubborn.c.o -c /Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/stubborn.c",
+  "file": "/Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/stubborn.c"
+},
+{
+  "directory": "/Users/evanwilliams/Junior/SP23/4120/etac-emw236/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -DGC_NOT_DLL -I/Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/include -I/Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/libatomic_ops/src -g -arch ppc -arch i386 -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk   -D_CRT_SECURE_NO_DEPRECATE                  -DALL_INTERIOR_POINTERS -o CMakeFiles/gc-lib.dir/dyn_load.c.o -c /Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/dyn_load.c",
+  "file": "/Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/dyn_load.c"
+},
+{
+  "directory": "/Users/evanwilliams/Junior/SP23/4120/etac-emw236/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -DGC_NOT_DLL -I/Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/include -I/Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/libatomic_ops/src -g -arch ppc -arch i386 -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk   -D_CRT_SECURE_NO_DEPRECATE                  -DALL_INTERIOR_POINTERS -o CMakeFiles/gc-lib.dir/typd_mlc.c.o -c /Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/typd_mlc.c",
+  "file": "/Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/typd_mlc.c"
+},
+{
+  "directory": "/Users/evanwilliams/Junior/SP23/4120/etac-emw236/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -DGC_NOT_DLL -I/Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/include -I/Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/libatomic_ops/src -g -arch ppc -arch i386 -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk   -D_CRT_SECURE_NO_DEPRECATE                  -DALL_INTERIOR_POINTERS -o CMakeFiles/gc-lib.dir/ptr_chck.c.o -c /Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/ptr_chck.c",
+  "file": "/Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/ptr_chck.c"
+},
+{
+  "directory": "/Users/evanwilliams/Junior/SP23/4120/etac-emw236/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -DGC_NOT_DLL -I/Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/include -I/Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/libatomic_ops/src -g -arch ppc -arch i386 -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk   -D_CRT_SECURE_NO_DEPRECATE                  -DALL_INTERIOR_POINTERS -o CMakeFiles/gc-lib.dir/mallocx.c.o -c /Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/mallocx.c",
+  "file": "/Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/mallocx.c"
+},
+{
+  "directory": "/Users/evanwilliams/Junior/SP23/4120/etac-emw236/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -DGC_NOT_DLL -I/Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/include -I/Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/libatomic_ops/src -g -arch ppc -arch i386 -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk   -D_CRT_SECURE_NO_DEPRECATE                  -DALL_INTERIOR_POINTERS -o CMakeFiles/gc-lib.dir/gc_cpp.cc.o -c /Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/gc_cpp.cc",
+  "file": "/Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/gc_cpp.cc"
+},
+{
+  "directory": "/Users/evanwilliams/Junior/SP23/4120/etac-emw236/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -DGC_NOT_DLL -I/Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/include -I/Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/libatomic_ops/src -g -arch ppc -arch i386 -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk   -D_CRT_SECURE_NO_DEPRECATE                  -DALL_INTERIOR_POINTERS -o CMakeFiles/gcmt-lib.dir/alloc.c.o -c /Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/alloc.c",
+  "file": "/Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/alloc.c"
+},
+{
+  "directory": "/Users/evanwilliams/Junior/SP23/4120/etac-emw236/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -DGC_NOT_DLL -I/Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/include -I/Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/libatomic_ops/src -g -arch ppc -arch i386 -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk   -D_CRT_SECURE_NO_DEPRECATE                  -DALL_INTERIOR_POINTERS -o CMakeFiles/gcmt-lib.dir/reclaim.c.o -c /Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/reclaim.c",
+  "file": "/Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/reclaim.c"
+},
+{
+  "directory": "/Users/evanwilliams/Junior/SP23/4120/etac-emw236/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -DGC_NOT_DLL -I/Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/include -I/Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/libatomic_ops/src -g -arch ppc -arch i386 -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk   -D_CRT_SECURE_NO_DEPRECATE                  -DALL_INTERIOR_POINTERS -o CMakeFiles/gcmt-lib.dir/allchblk.c.o -c /Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/allchblk.c",
+  "file": "/Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/allchblk.c"
+},
+{
+  "directory": "/Users/evanwilliams/Junior/SP23/4120/etac-emw236/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -DGC_NOT_DLL -I/Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/include -I/Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/libatomic_ops/src -g -arch ppc -arch i386 -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk   -D_CRT_SECURE_NO_DEPRECATE                  -DALL_INTERIOR_POINTERS -o CMakeFiles/gcmt-lib.dir/misc.c.o -c /Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/misc.c",
+  "file": "/Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/misc.c"
+},
+{
+  "directory": "/Users/evanwilliams/Junior/SP23/4120/etac-emw236/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -DGC_NOT_DLL -I/Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/include -I/Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/libatomic_ops/src -g -arch ppc -arch i386 -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk   -D_CRT_SECURE_NO_DEPRECATE                  -DALL_INTERIOR_POINTERS -o CMakeFiles/gcmt-lib.dir/mach_dep.c.o -c /Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/mach_dep.c",
+  "file": "/Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/mach_dep.c"
+},
+{
+  "directory": "/Users/evanwilliams/Junior/SP23/4120/etac-emw236/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -DGC_NOT_DLL -I/Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/include -I/Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/libatomic_ops/src -g -arch ppc -arch i386 -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk   -D_CRT_SECURE_NO_DEPRECATE                  -DALL_INTERIOR_POINTERS -o CMakeFiles/gcmt-lib.dir/os_dep.c.o -c /Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/os_dep.c",
+  "file": "/Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/os_dep.c"
+},
+{
+  "directory": "/Users/evanwilliams/Junior/SP23/4120/etac-emw236/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -DGC_NOT_DLL -I/Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/include -I/Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/libatomic_ops/src -g -arch ppc -arch i386 -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk   -D_CRT_SECURE_NO_DEPRECATE                  -DALL_INTERIOR_POINTERS -o CMakeFiles/gcmt-lib.dir/mark_rts.c.o -c /Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/mark_rts.c",
+  "file": "/Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/mark_rts.c"
+},
+{
+  "directory": "/Users/evanwilliams/Junior/SP23/4120/etac-emw236/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -DGC_NOT_DLL -I/Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/include -I/Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/libatomic_ops/src -g -arch ppc -arch i386 -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk   -D_CRT_SECURE_NO_DEPRECATE                  -DALL_INTERIOR_POINTERS -o CMakeFiles/gcmt-lib.dir/headers.c.o -c /Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/headers.c",
+  "file": "/Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/headers.c"
+},
+{
+  "directory": "/Users/evanwilliams/Junior/SP23/4120/etac-emw236/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -DGC_NOT_DLL -I/Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/include -I/Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/libatomic_ops/src -g -arch ppc -arch i386 -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk   -D_CRT_SECURE_NO_DEPRECATE                  -DALL_INTERIOR_POINTERS -o CMakeFiles/gcmt-lib.dir/mark.c.o -c /Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/mark.c",
+  "file": "/Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/mark.c"
+},
+{
+  "directory": "/Users/evanwilliams/Junior/SP23/4120/etac-emw236/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -DGC_NOT_DLL -I/Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/include -I/Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/libatomic_ops/src -g -arch ppc -arch i386 -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk   -D_CRT_SECURE_NO_DEPRECATE                  -DALL_INTERIOR_POINTERS -o CMakeFiles/gcmt-lib.dir/obj_map.c.o -c /Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/obj_map.c",
+  "file": "/Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/obj_map.c"
+},
+{
+  "directory": "/Users/evanwilliams/Junior/SP23/4120/etac-emw236/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -DGC_NOT_DLL -I/Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/include -I/Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/libatomic_ops/src -g -arch ppc -arch i386 -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk   -D_CRT_SECURE_NO_DEPRECATE                  -DALL_INTERIOR_POINTERS -o CMakeFiles/gcmt-lib.dir/blacklst.c.o -c /Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/blacklst.c",
+  "file": "/Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/blacklst.c"
+},
+{
+  "directory": "/Users/evanwilliams/Junior/SP23/4120/etac-emw236/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -DGC_NOT_DLL -I/Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/include -I/Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/libatomic_ops/src -g -arch ppc -arch i386 -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk   -D_CRT_SECURE_NO_DEPRECATE                  -DALL_INTERIOR_POINTERS -o CMakeFiles/gcmt-lib.dir/finalize.c.o -c /Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/finalize.c",
+  "file": "/Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/finalize.c"
+},
+{
+  "directory": "/Users/evanwilliams/Junior/SP23/4120/etac-emw236/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -DGC_NOT_DLL -I/Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/include -I/Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/libatomic_ops/src -g -arch ppc -arch i386 -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk   -D_CRT_SECURE_NO_DEPRECATE                  -DALL_INTERIOR_POINTERS -o CMakeFiles/gcmt-lib.dir/new_hblk.c.o -c /Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/new_hblk.c",
+  "file": "/Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/new_hblk.c"
+},
+{
+  "directory": "/Users/evanwilliams/Junior/SP23/4120/etac-emw236/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -DGC_NOT_DLL -I/Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/include -I/Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/libatomic_ops/src -g -arch ppc -arch i386 -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk   -D_CRT_SECURE_NO_DEPRECATE                  -DALL_INTERIOR_POINTERS -o CMakeFiles/gcmt-lib.dir/dbg_mlc.c.o -c /Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/dbg_mlc.c",
+  "file": "/Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/dbg_mlc.c"
+},
+{
+  "directory": "/Users/evanwilliams/Junior/SP23/4120/etac-emw236/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -DGC_NOT_DLL -I/Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/include -I/Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/libatomic_ops/src -g -arch ppc -arch i386 -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk   -D_CRT_SECURE_NO_DEPRECATE                  -DALL_INTERIOR_POINTERS -o CMakeFiles/gcmt-lib.dir/malloc.c.o -c /Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/malloc.c",
+  "file": "/Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/malloc.c"
+},
+{
+  "directory": "/Users/evanwilliams/Junior/SP23/4120/etac-emw236/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -DGC_NOT_DLL -I/Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/include -I/Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/libatomic_ops/src -g -arch ppc -arch i386 -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk   -D_CRT_SECURE_NO_DEPRECATE                  -DALL_INTERIOR_POINTERS -o CMakeFiles/gcmt-lib.dir/stubborn.c.o -c /Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/stubborn.c",
+  "file": "/Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/stubborn.c"
+},
+{
+  "directory": "/Users/evanwilliams/Junior/SP23/4120/etac-emw236/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -DGC_NOT_DLL -I/Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/include -I/Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/libatomic_ops/src -g -arch ppc -arch i386 -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk   -D_CRT_SECURE_NO_DEPRECATE                  -DALL_INTERIOR_POINTERS -o CMakeFiles/gcmt-lib.dir/dyn_load.c.o -c /Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/dyn_load.c",
+  "file": "/Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/dyn_load.c"
+},
+{
+  "directory": "/Users/evanwilliams/Junior/SP23/4120/etac-emw236/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -DGC_NOT_DLL -I/Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/include -I/Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/libatomic_ops/src -g -arch ppc -arch i386 -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk   -D_CRT_SECURE_NO_DEPRECATE                  -DALL_INTERIOR_POINTERS -o CMakeFiles/gcmt-lib.dir/typd_mlc.c.o -c /Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/typd_mlc.c",
+  "file": "/Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/typd_mlc.c"
+},
+{
+  "directory": "/Users/evanwilliams/Junior/SP23/4120/etac-emw236/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -DGC_NOT_DLL -I/Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/include -I/Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/libatomic_ops/src -g -arch ppc -arch i386 -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk   -D_CRT_SECURE_NO_DEPRECATE                  -DALL_INTERIOR_POINTERS -o CMakeFiles/gcmt-lib.dir/ptr_chck.c.o -c /Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/ptr_chck.c",
+  "file": "/Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/ptr_chck.c"
+},
+{
+  "directory": "/Users/evanwilliams/Junior/SP23/4120/etac-emw236/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -DGC_NOT_DLL -I/Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/include -I/Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/libatomic_ops/src -g -arch ppc -arch i386 -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk   -D_CRT_SECURE_NO_DEPRECATE                  -DALL_INTERIOR_POINTERS -o CMakeFiles/gcmt-lib.dir/mallocx.c.o -c /Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/mallocx.c",
+  "file": "/Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/mallocx.c"
+},
+{
+  "directory": "/Users/evanwilliams/Junior/SP23/4120/etac-emw236/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -DGC_NOT_DLL -I/Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/include -I/Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/libatomic_ops/src -g -arch ppc -arch i386 -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk   -D_CRT_SECURE_NO_DEPRECATE                  -DALL_INTERIOR_POINTERS -o CMakeFiles/gcmt-lib.dir/gc_cpp.cc.o -c /Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/gc_cpp.cc",
+  "file": "/Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/gc_cpp.cc"
+},
+{
+  "directory": "/Users/evanwilliams/Junior/SP23/4120/etac-emw236/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -Dgcmt_dll_EXPORTS -I/Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/include -I/Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/libatomic_ops/src -g -arch ppc -arch i386 -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -fPIC   -D_CRT_SECURE_NO_DEPRECATE                  -DALL_INTERIOR_POINTERS -o CMakeFiles/gcmt-dll.dir/alloc.c.o -c /Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/alloc.c",
+  "file": "/Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/alloc.c"
+},
+{
+  "directory": "/Users/evanwilliams/Junior/SP23/4120/etac-emw236/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -Dgcmt_dll_EXPORTS -I/Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/include -I/Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/libatomic_ops/src -g -arch ppc -arch i386 -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -fPIC   -D_CRT_SECURE_NO_DEPRECATE                  -DALL_INTERIOR_POINTERS -o CMakeFiles/gcmt-dll.dir/reclaim.c.o -c /Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/reclaim.c",
+  "file": "/Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/reclaim.c"
+},
+{
+  "directory": "/Users/evanwilliams/Junior/SP23/4120/etac-emw236/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -Dgcmt_dll_EXPORTS -I/Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/include -I/Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/libatomic_ops/src -g -arch ppc -arch i386 -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -fPIC   -D_CRT_SECURE_NO_DEPRECATE                  -DALL_INTERIOR_POINTERS -o CMakeFiles/gcmt-dll.dir/allchblk.c.o -c /Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/allchblk.c",
+  "file": "/Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/allchblk.c"
+},
+{
+  "directory": "/Users/evanwilliams/Junior/SP23/4120/etac-emw236/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -Dgcmt_dll_EXPORTS -I/Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/include -I/Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/libatomic_ops/src -g -arch ppc -arch i386 -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -fPIC   -D_CRT_SECURE_NO_DEPRECATE                  -DALL_INTERIOR_POINTERS -o CMakeFiles/gcmt-dll.dir/misc.c.o -c /Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/misc.c",
+  "file": "/Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/misc.c"
+},
+{
+  "directory": "/Users/evanwilliams/Junior/SP23/4120/etac-emw236/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -Dgcmt_dll_EXPORTS -I/Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/include -I/Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/libatomic_ops/src -g -arch ppc -arch i386 -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -fPIC   -D_CRT_SECURE_NO_DEPRECATE                  -DALL_INTERIOR_POINTERS -o CMakeFiles/gcmt-dll.dir/mach_dep.c.o -c /Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/mach_dep.c",
+  "file": "/Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/mach_dep.c"
+},
+{
+  "directory": "/Users/evanwilliams/Junior/SP23/4120/etac-emw236/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -Dgcmt_dll_EXPORTS -I/Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/include -I/Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/libatomic_ops/src -g -arch ppc -arch i386 -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -fPIC   -D_CRT_SECURE_NO_DEPRECATE                  -DALL_INTERIOR_POINTERS -o CMakeFiles/gcmt-dll.dir/os_dep.c.o -c /Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/os_dep.c",
+  "file": "/Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/os_dep.c"
+},
+{
+  "directory": "/Users/evanwilliams/Junior/SP23/4120/etac-emw236/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -Dgcmt_dll_EXPORTS -I/Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/include -I/Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/libatomic_ops/src -g -arch ppc -arch i386 -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -fPIC   -D_CRT_SECURE_NO_DEPRECATE                  -DALL_INTERIOR_POINTERS -o CMakeFiles/gcmt-dll.dir/mark_rts.c.o -c /Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/mark_rts.c",
+  "file": "/Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/mark_rts.c"
+},
+{
+  "directory": "/Users/evanwilliams/Junior/SP23/4120/etac-emw236/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -Dgcmt_dll_EXPORTS -I/Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/include -I/Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/libatomic_ops/src -g -arch ppc -arch i386 -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -fPIC   -D_CRT_SECURE_NO_DEPRECATE                  -DALL_INTERIOR_POINTERS -o CMakeFiles/gcmt-dll.dir/headers.c.o -c /Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/headers.c",
+  "file": "/Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/headers.c"
+},
+{
+  "directory": "/Users/evanwilliams/Junior/SP23/4120/etac-emw236/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -Dgcmt_dll_EXPORTS -I/Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/include -I/Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/libatomic_ops/src -g -arch ppc -arch i386 -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -fPIC   -D_CRT_SECURE_NO_DEPRECATE                  -DALL_INTERIOR_POINTERS -o CMakeFiles/gcmt-dll.dir/mark.c.o -c /Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/mark.c",
+  "file": "/Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/mark.c"
+},
+{
+  "directory": "/Users/evanwilliams/Junior/SP23/4120/etac-emw236/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -Dgcmt_dll_EXPORTS -I/Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/include -I/Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/libatomic_ops/src -g -arch ppc -arch i386 -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -fPIC   -D_CRT_SECURE_NO_DEPRECATE                  -DALL_INTERIOR_POINTERS -o CMakeFiles/gcmt-dll.dir/obj_map.c.o -c /Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/obj_map.c",
+  "file": "/Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/obj_map.c"
+},
+{
+  "directory": "/Users/evanwilliams/Junior/SP23/4120/etac-emw236/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -Dgcmt_dll_EXPORTS -I/Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/include -I/Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/libatomic_ops/src -g -arch ppc -arch i386 -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -fPIC   -D_CRT_SECURE_NO_DEPRECATE                  -DALL_INTERIOR_POINTERS -o CMakeFiles/gcmt-dll.dir/blacklst.c.o -c /Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/blacklst.c",
+  "file": "/Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/blacklst.c"
+},
+{
+  "directory": "/Users/evanwilliams/Junior/SP23/4120/etac-emw236/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -Dgcmt_dll_EXPORTS -I/Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/include -I/Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/libatomic_ops/src -g -arch ppc -arch i386 -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -fPIC   -D_CRT_SECURE_NO_DEPRECATE                  -DALL_INTERIOR_POINTERS -o CMakeFiles/gcmt-dll.dir/finalize.c.o -c /Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/finalize.c",
+  "file": "/Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/finalize.c"
+},
+{
+  "directory": "/Users/evanwilliams/Junior/SP23/4120/etac-emw236/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -Dgcmt_dll_EXPORTS -I/Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/include -I/Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/libatomic_ops/src -g -arch ppc -arch i386 -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -fPIC   -D_CRT_SECURE_NO_DEPRECATE                  -DALL_INTERIOR_POINTERS -o CMakeFiles/gcmt-dll.dir/new_hblk.c.o -c /Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/new_hblk.c",
+  "file": "/Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/new_hblk.c"
+},
+{
+  "directory": "/Users/evanwilliams/Junior/SP23/4120/etac-emw236/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -Dgcmt_dll_EXPORTS -I/Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/include -I/Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/libatomic_ops/src -g -arch ppc -arch i386 -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -fPIC   -D_CRT_SECURE_NO_DEPRECATE                  -DALL_INTERIOR_POINTERS -o CMakeFiles/gcmt-dll.dir/dbg_mlc.c.o -c /Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/dbg_mlc.c",
+  "file": "/Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/dbg_mlc.c"
+},
+{
+  "directory": "/Users/evanwilliams/Junior/SP23/4120/etac-emw236/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -Dgcmt_dll_EXPORTS -I/Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/include -I/Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/libatomic_ops/src -g -arch ppc -arch i386 -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -fPIC   -D_CRT_SECURE_NO_DEPRECATE                  -DALL_INTERIOR_POINTERS -o CMakeFiles/gcmt-dll.dir/malloc.c.o -c /Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/malloc.c",
+  "file": "/Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/malloc.c"
+},
+{
+  "directory": "/Users/evanwilliams/Junior/SP23/4120/etac-emw236/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -Dgcmt_dll_EXPORTS -I/Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/include -I/Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/libatomic_ops/src -g -arch ppc -arch i386 -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -fPIC   -D_CRT_SECURE_NO_DEPRECATE                  -DALL_INTERIOR_POINTERS -o CMakeFiles/gcmt-dll.dir/stubborn.c.o -c /Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/stubborn.c",
+  "file": "/Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/stubborn.c"
+},
+{
+  "directory": "/Users/evanwilliams/Junior/SP23/4120/etac-emw236/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -Dgcmt_dll_EXPORTS -I/Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/include -I/Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/libatomic_ops/src -g -arch ppc -arch i386 -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -fPIC   -D_CRT_SECURE_NO_DEPRECATE                  -DALL_INTERIOR_POINTERS -o CMakeFiles/gcmt-dll.dir/dyn_load.c.o -c /Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/dyn_load.c",
+  "file": "/Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/dyn_load.c"
+},
+{
+  "directory": "/Users/evanwilliams/Junior/SP23/4120/etac-emw236/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -Dgcmt_dll_EXPORTS -I/Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/include -I/Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/libatomic_ops/src -g -arch ppc -arch i386 -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -fPIC   -D_CRT_SECURE_NO_DEPRECATE                  -DALL_INTERIOR_POINTERS -o CMakeFiles/gcmt-dll.dir/typd_mlc.c.o -c /Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/typd_mlc.c",
+  "file": "/Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/typd_mlc.c"
+},
+{
+  "directory": "/Users/evanwilliams/Junior/SP23/4120/etac-emw236/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -Dgcmt_dll_EXPORTS -I/Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/include -I/Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/libatomic_ops/src -g -arch ppc -arch i386 -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -fPIC   -D_CRT_SECURE_NO_DEPRECATE                  -DALL_INTERIOR_POINTERS -o CMakeFiles/gcmt-dll.dir/ptr_chck.c.o -c /Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/ptr_chck.c",
+  "file": "/Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/ptr_chck.c"
+},
+{
+  "directory": "/Users/evanwilliams/Junior/SP23/4120/etac-emw236/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -Dgcmt_dll_EXPORTS -I/Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/include -I/Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/libatomic_ops/src -g -arch ppc -arch i386 -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -fPIC   -D_CRT_SECURE_NO_DEPRECATE                  -DALL_INTERIOR_POINTERS -o CMakeFiles/gcmt-dll.dir/mallocx.c.o -c /Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/mallocx.c",
+  "file": "/Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/mallocx.c"
+},
+{
+  "directory": "/Users/evanwilliams/Junior/SP23/4120/etac-emw236/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -Dgcmt_dll_EXPORTS -I/Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/include -I/Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/libatomic_ops/src -g -arch ppc -arch i386 -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -fPIC   -D_CRT_SECURE_NO_DEPRECATE                  -DALL_INTERIOR_POINTERS -o CMakeFiles/gcmt-dll.dir/gc_cpp.cc.o -c /Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/gc_cpp.cc",
+  "file": "/Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/gc_cpp.cc"
+},
+{
+  "directory": "/Users/evanwilliams/Junior/SP23/4120/etac-emw236/build/tests",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -DGC_NOT_DLL -I/Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/include -I/Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/libatomic_ops/src -g -arch ppc -arch i386 -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk   -D_CRT_SECURE_NO_DEPRECATE                  -DALL_INTERIOR_POINTERS -o CMakeFiles/gctest.dir/test.c.o -c /Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/tests/test.c",
+  "file": "/Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/tests/test.c"
+},
+{
+  "directory": "/Users/evanwilliams/Junior/SP23/4120/etac-emw236/build/tests",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -DGC_NOT_DLL -I/Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/include -I/Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/libatomic_ops/src -g -arch ppc -arch i386 -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk   -D_CRT_SECURE_NO_DEPRECATE                  -DALL_INTERIOR_POINTERS -o CMakeFiles/hugetest.dir/huge_test.c.o -c /Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/tests/huge_test.c",
+  "file": "/Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/tests/huge_test.c"
+},
+{
+  "directory": "/Users/evanwilliams/Junior/SP23/4120/etac-emw236/build/tests",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -DGC_NOT_DLL -I/Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/include -I/Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/libatomic_ops/src -g -arch ppc -arch i386 -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk   -D_CRT_SECURE_NO_DEPRECATE                  -DALL_INTERIOR_POINTERS -o CMakeFiles/leaktest.dir/leak_test.c.o -c /Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/tests/leak_test.c",
+  "file": "/Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/tests/leak_test.c"
+},
+{
+  "directory": "/Users/evanwilliams/Junior/SP23/4120/etac-emw236/build/tests",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -DGC_NOT_DLL -I/Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/include -I/Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/libatomic_ops/src -g -arch ppc -arch i386 -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk   -D_CRT_SECURE_NO_DEPRECATE                  -DALL_INTERIOR_POINTERS -o CMakeFiles/middletest.dir/middle.c.o -c /Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/tests/middle.c",
+  "file": "/Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/tests/middle.c"
+},
+{
+  "directory": "/Users/evanwilliams/Junior/SP23/4120/etac-emw236/build/tests",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -DGC_NOT_DLL -I/Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/include -I/Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/libatomic_ops/src -g -arch ppc -arch i386 -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk   -D_CRT_SECURE_NO_DEPRECATE                  -DALL_INTERIOR_POINTERS -o CMakeFiles/realloc_test.dir/realloc_test.c.o -c /Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/tests/realloc_test.c",
+  "file": "/Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/tests/realloc_test.c"
+},
+{
+  "directory": "/Users/evanwilliams/Junior/SP23/4120/etac-emw236/build/tests",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -DGC_NOT_DLL -I/Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/include -I/Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/libatomic_ops/src -g -arch ppc -arch i386 -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk   -D_CRT_SECURE_NO_DEPRECATE                  -DALL_INTERIOR_POINTERS -o CMakeFiles/smashtest.dir/smash_test.c.o -c /Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/tests/smash_test.c",
+  "file": "/Users/evanwilliams/Junior/SP23/4120/etac-emw236/runtime/gc-7.6.4/tests/smash_test.c"
+}
+]

@@ -1,0 +1,1 @@
+eth -compilerpath . -testpath eth/tests/pa5/ -runtimepath ../runtime eth/tests/pa5/ethScript

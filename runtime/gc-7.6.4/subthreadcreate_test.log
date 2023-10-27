@@ -1,0 +1,2 @@
+subthread_create: created 196 threads (195 ended)
+PASS subthreadcreate_test (exit status: 0)

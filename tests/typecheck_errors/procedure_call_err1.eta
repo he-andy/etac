@@ -1,0 +1,10 @@
+gcd(a:int, b:int) {
+  while (a != 0) {
+    if (a<b) b = b - a
+    else a = a - b
+  }
+}
+
+f() {
+  gcd(10);
+}

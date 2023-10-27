@@ -1,0 +1,16 @@
+use io
+use conv
+
+f : int = 5 
+
+g() : int {
+  return 7
+}
+
+h() : int {
+  return 10
+}
+
+main(args : int[][]) {
+  println(unparseInt(f+g()+h()))  
+}

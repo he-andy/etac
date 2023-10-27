@@ -1,0 +1,3 @@
+test() {
+  expr : int = 7
+}

@@ -1,0 +1,13 @@
+f1() {
+  x:int[] = {1,2,3}
+  }
+// Looks good for 1d
+//   Some(
+//       Seq([Label("f1"), 
+//       Seq([Seq([Move(Temp("x"), 
+//       ESeq(Seq([Move(Temp("_t1"), Call(Name("_eta_alloc"), [Const(32)])),
+//        Move(Mem(Temp("_t1")), Const(3)), 
+//        Move(Mem(Op(Add, Temp("_t1"), Const(8))), Const(1)), 
+//        Move(Mem(Op(Add, Temp("_t1"), Const(16))), Const(2)), 
+//        Move(Mem(Op(Add, Temp("_t1"), Const(24))), Const(3))]), 
+//        Op(Add, Temp("_t1"), Const(8))))])]), Return([])]))

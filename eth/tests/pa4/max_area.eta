@@ -1,0 +1,40 @@
+use io 
+use conv 
+
+max(x:int, y:int):int {
+  if(x > y) {
+    return x
+  } else {
+    return y
+  }
+}
+
+min(x:int, y:int):int {
+  if(x < y) {
+    return x
+  } else {
+    return y
+  }
+}
+
+max_area(height:int[]):int {
+  l:int = 0 
+  r:int = length(height) - 1
+  area:int = min(height[l], height[r]) * (r - l)
+
+  while(l < r) {
+    if(height[l] < height[r]) {
+      l = l + 1
+    } else {
+      r = r - 1
+    }
+    area = max(area, min(height[l], height[r]) * (r - l))
+  }
+  
+  return area
+}
+
+main(args:int[][]) {
+  height:int[] = {1, 8, 6, 2, 5, 4, 8, 3, 7}
+  println(unparseInt(max_area(height)))
+}

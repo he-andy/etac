@@ -1,0 +1,13 @@
+use io 
+use conv 
+
+powers(x:int):int, int, int {
+  return x, x * x, x * x * x
+}
+
+main(args:int[][]) {
+  a:int, a_squared:int, a_cubed:int = powers(2)
+  println(unparseInt(a))
+  println(unparseInt(a_squared))
+  println(unparseInt(a_cubed))
+}

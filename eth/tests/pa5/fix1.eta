@@ -1,0 +1,10 @@
+use io 
+use conv 
+
+main(args:int[][]) {
+  a:int[] = {1}
+  b:int[] = {1}
+  c:int[1]
+  c[0] = a[0] + b[0]
+  print(unparseInt(c[0]))
+}

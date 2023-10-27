@@ -1,0 +1,7 @@
+x () {
+    y:int = 0;
+}
+
+x (a: int, b: int) {
+    z:int = 0;
+}

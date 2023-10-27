@@ -1,0 +1,1 @@
+[Function(Function { identifier: "test", args: [], returns: None, block: [Assignment(Assignment { lvalues: [TypePair(("expr", IntType))], rvalues: Some([Primary(Literal(Int(7)))]) })] }), Use("")]

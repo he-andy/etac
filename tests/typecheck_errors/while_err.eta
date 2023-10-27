@@ -1,0 +1,7 @@
+use io 
+
+main(args: int[][]) {
+  while(0) {
+    print("This doesn't matter");
+  }
+}

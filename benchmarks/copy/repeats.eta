@@ -1,0 +1,17 @@
+use io
+use conv
+
+main(args:int[][]) {
+  x:int = 10
+  y:int = x
+  z:int = y
+  sum:int = 0
+  i:int = 0 
+
+  while(i < 100) {
+    sum = sum + z
+    i = i + 1
+  }
+  
+  println("Sum: " + unparseInt(sum))
+}

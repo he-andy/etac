@@ -1,0 +1,12 @@
+use io
+use conv
+
+main(args:int[][]) {
+  i:int = 0 
+  acc:int = 0; 
+  while (i < 100) {
+    acc = acc + 1
+    i = i + 1
+  }
+  println("acc = " + unparseInt(acc))
+}

@@ -1,0 +1,9 @@
+use io
+use conv
+
+main(args:int[][]) {
+  x:int = 5
+  y:int = x * x  // Dead code
+  z:int = x + x
+  println("z: " + unparseInt(z))
+}

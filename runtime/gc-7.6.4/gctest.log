@@ -1,0 +1,16 @@
+Switched to incremental mode
+Emulating dirty bits with mprotect/signals
+Completed 6 tests
+Allocated 12051809 collectable objects
+Allocated 1224 uncollectable objects
+Allocated 7620000 atomic objects
+Allocated 137760 stubborn objects
+Reallocated 36 objects
+Finalized 13418/13418 objects - finalization is probably ok
+Total number of bytes allocated is 663827855
+Total memory use by allocated blocks is 5365760 bytes
+Final heap size is 54718464 bytes
+Final number of reachable objects is 4023
+Completed 386 collections (using 16 marker threads)
+Collector appears to work
+PASS gctest (exit status: 0)

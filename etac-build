@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+cargo build --release
+rm etac
+cp ./target/release/etac etac
+cd ir_interpreter
+javac -d build -classpath "lib/java_cup.jar:lib/jflex.jar:${CLASSPATH}" @pa4_student_files.txt
+cd ..

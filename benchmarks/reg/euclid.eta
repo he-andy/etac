@@ -1,0 +1,14 @@
+use io
+use conv
+
+gcd(a:int, b:int) : int {
+  if (b == 0) {
+    return a
+  }
+  return gcd(b, a % b)
+}
+
+main(args:int[][]) {
+  result:int = gcd(12345, 6789)
+  println("gcd(12345, 6789) = " + unparseInt(result))
+}

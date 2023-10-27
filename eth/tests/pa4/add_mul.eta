@@ -1,0 +1,12 @@
+use io 
+use conv 
+
+add_mul(x:int, y:int):int, int {
+  return x + y, x * y
+}
+
+main(args:int[][]) {
+  x:int, y:int = add_mul(1, 2)
+  println(unparseInt(x))
+  println(unparseInt(y))
+}

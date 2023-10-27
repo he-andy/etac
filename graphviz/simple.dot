@@ -1,0 +1,21 @@
+digraph {
+    0 [ label = "Move(Temp(\"args\"), Temp(\"_ARG1\"))" ]
+    1 [ label = "Move(Temp(\"x\"), Const(10))" ]
+    2 [ label = "CJump2(Op(Gt, Temp(\"x\"), Const(5)), \"_lt1\")" ]
+    3 [ label = "Move(Temp(\"x\"), Op(Add, Temp(\"x\"), Const(5)))" ]
+    4 [ label = "Label(\"_endif3\")" ]
+    5 [ label = "Return([])" ]
+    6 [ label = "Label(\"_lt1\")" ]
+    7 [ label = "Move(Temp(\"x\"), Op(Sub, Temp(\"x\"), Const(5)))" ]
+    8 [ label = "Jump(Name(\"_endif3\"))" ]
+    0 -> 1 [ ]
+    1 -> 2 [ ]
+    2 -> 3 [ ]
+    2 -> 6 [ ]
+    3 -> 4 [ ]
+    4 -> 5 [ ]
+    6 -> 7 [ ]
+    7 -> 8 [ ]
+    8 -> 4 [ ]
+}
+

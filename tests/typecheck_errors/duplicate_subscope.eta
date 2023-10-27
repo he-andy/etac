@@ -1,0 +1,7 @@
+x:int = 1
+
+f() {
+    x:int = 2
+    
+    y:int = x;  // this x should refer to line 4?
+}

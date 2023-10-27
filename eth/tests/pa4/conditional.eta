@@ -1,0 +1,9 @@
+use io 
+
+main(args:int[][]) {
+  if(true) {
+    println("Hello, world")
+  } else {
+    println("Goodbye, world")
+  }
+}

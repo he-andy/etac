@@ -1,0 +1,11 @@
+use compilers 
+use io 
+
+main(args: int[][]) {
+  smells: bool = false 
+  if(shower(smells)) {
+    print("I showered!")
+  } else {
+    print("No. I want to be a CS major instead.")
+  }
+}

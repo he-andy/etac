@@ -1,0 +1,10 @@
+Found 1 leaked objects:
+0x55584f26ffe0 (tests/thread_leak_test.c:30, sz=4, NORMAL)
+Found 2 leaked objects:
+0x55584f26fef0 (tests/thread_leak_test.c:30, sz=4, NORMAL)
+0x55584f26ff20 (tests/thread_leak_test.c:30, sz=4, NORMAL)
+Found 1 leaked objects:
+0x55584f26ffe0 (tests/thread_leak_test.c:30, sz=4, NORMAL)
+Found 1 leaked objects:
+0x55584f26fec0 (tests/thread_leak_test.c:30, sz=4, NORMAL)
+PASS threadleaktest (exit status: 0)

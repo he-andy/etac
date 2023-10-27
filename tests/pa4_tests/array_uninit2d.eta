@@ -1,0 +1,23 @@
+f1() {
+    x:int[2][3];
+}
+// This honestly looks fine to my understanding rn, should check with interpreter tho 
+
+// Some(Seq([Label("f1"), 
+// Seq([Seq([
+//     Seq([Move(Temp("_t1"), Const(2)), 
+//     Move(Temp("_t2"), Call(Name("_eta_alloc"), [Op(Add, Const(8), Op(Mul, Const(8), Temp("_t1")))])), 
+//     Move(Mem(Temp("_t2")), Temp("_t1")), 
+//     Move(Temp("_t3"), Const(1)), 
+//     Label("_t4"), 
+//     CJump(Op(Neq, Temp("_t3"), Op(Add, Temp("_t1"), Const(1))), "_t5", "_t6"), 
+//     Label("_t5"), 
+//     Move(Temp("_t7"), Const(3)), 
+//     Move(Temp("_t8"), Call(Name("_eta_alloc"), [Op(Add, Const(8), Op(Mul, Const(8), Temp("_t7")))])), 
+//     Move(Mem(Temp("_t8")), Temp("_t7")), 
+//     Move(Mem(Op(Add, Temp("_t2"), Op(Mul, Temp("_t3"), Const(8)))), Op(Add, Temp("_t8"), Const(8))), 
+//     Move(Temp("_t3"), Op(Add, Temp("_t3"), Const(1))), 
+//     Jump(Name("_t4")), 
+//     Label("_t6"), 
+//     Move(Temp("x"), Temp("_t2"))])])]),
+// Return([])]))

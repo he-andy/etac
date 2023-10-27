@@ -1,0 +1,7 @@
+// Interface file for CS 4120 at Cornell 
+
+cry(hours_slept: int)
+
+shower(smells: bool)
+
+eat(food: int[])

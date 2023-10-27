@@ -1,0 +1,7 @@
+use io
+
+main(args: int[][]) {
+  if(1 & 2) {
+    print("I love Pun!");
+  }
+}

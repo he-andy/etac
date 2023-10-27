@@ -1,0 +1,7 @@
+use io; 
+use conv; 
+
+main(args:int[][]) {
+  arr: int[] = {1} 
+  print(unparseInt(arr[1]))
+}

@@ -1,0 +1,5 @@
+// TODO! Change the file extension to .rho once the parser is ready
+
+main(args:int[][]) {
+  nullptr:int[] = null;
+}

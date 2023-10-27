@@ -1,0 +1,9 @@
+main(args:int[][]) {
+  x:bool = true 
+  a:int = 0
+  if(x) {
+    a = 1
+  } else {
+    a = 0
+  }
+}

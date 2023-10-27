@@ -1,0 +1,7 @@
+powers(x:int):int, int, int {
+  return x, x*x, x*x*x
+}
+
+main(args:int[][]) {
+  x:int, y:int, z:int = powers(3)
+}

@@ -1,0 +1,26 @@
+[package]
+name = "etac-emw236"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[[bin]]
+edition = "2021"
+name = "etac"
+path = "src/main.rs"
+
+[dependencies]
+pest = "2.5.4"
+pest_derive = "2.5.4"
+ansi_term = "0.12.1"
+regex = "1.7.1"
+lazy_static = "1.4.0"
+pest_meta = "2.5.4"
+petgraph = "0.6.3"
+
+[profile.dev]
+opt-level = 0
+
+[profile.release]
+opt-level = 3

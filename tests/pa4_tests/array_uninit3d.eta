@@ -1,0 +1,38 @@
+f1() {
+    x:int[1][2][3];
+}
+// This also looks fine to my understanding
+// Some(
+//     Seq([Label("f1"), 
+//         Seq([
+//             Seq([
+//                 Seq([Move(Temp("_t1"), Const(1)), 
+//                     Move(Temp("_t2"), Call(Name("_eta_alloc"), [Op(Add, Const(8), Op(Mul, Const(8), Temp("_t1")))])), 
+//                     Move(Mem(Temp("_t2")), Temp("_t1")), 
+//                     Move(Temp("_t3"), Const(1)), 
+//                     Label("_t4"), 
+//                     CJump(Op(Neq, Temp("_t3"), Op(Add, Temp("_t1"), Const(1))), "_t5", "_t6"), 
+//                     Label("_t5"), 
+//                         Move(Temp("_t7"), Const(2)), 
+//                         Move(Temp("_t8"), Call(Name("_eta_alloc"), [Op(Add, Const(8), Op(Mul, Const(8), Temp("_t7")))])), 
+//                         Move(Mem(Temp("_t8")), Temp("_t7")), 
+//                         Move(Temp("_t9"), Const(1)), 
+//                         Label("_t10"), 
+//                         CJump(Op(Neq, Temp("_t9"), Op(Add, Temp("_t7"), Const(1))), "_t11", "_t12"), 
+//                         Label("_t11"), 
+//                             Move(Temp("_t13"), Const(3)), 
+//                             Move(Temp("_t14"), 
+//                             Call(Name("_eta_alloc"), [Op(Add, Const(8), Op(Mul, Const(8), Temp("_t13")))])), 
+//                             Move(Mem(Temp("_t14")), Temp("_t13")), 
+//                             Move(Mem(Op(Add, Temp("_t8"), Op(Mul, Temp("_t9"), Const(8)))), Op(Add, Temp("_t14"), Const(8))), 
+//                             Move(Temp("_t9"), Op(Add, Temp("_t9"), Const(1))), 
+//                             Jump(Name("_t10")), 
+//                         Label("_t12"), 
+//                         Move(Mem(Op(Add, Temp("_t2"), Op(Mul, Temp("_t3"), Const(8)))), Op(Add, Temp("_t8"), Const(8))), 
+//                         Move(Temp("_t3"), Op(Add, Temp("_t3"), Const(1))), 
+//                         Jump(Name("_t4")), 
+//                     Label("_t6"), 
+//                     Move(Temp("x"), Temp("_t2"))])
+//                 ])
+//             ]), 
+//         Return([])]))

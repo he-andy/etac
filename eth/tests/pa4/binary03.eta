@@ -1,0 +1,13 @@
+use io
+use conv
+main(args: int[][]) {
+println(b2s(1 < 2))
+println(b2s(3 <= 2))
+println(b2s(4 > 2))
+println(b2s(5 >= 2))
+println(b2s(6 == 2))
+println(b2s(7 != 2))
+}
+b2s(b: bool): int[] {
+if (b) { return unparseInt(47) } else { return unparseInt(25) }
+}

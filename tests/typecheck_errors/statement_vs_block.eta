@@ -1,0 +1,7 @@
+main(b:bool) : int {
+    while(b) { b = false }
+    while(b) b = false
+    while (b) { b = false }
+    while (b) b = false
+    return 0;
+}

@@ -1,0 +1,9 @@
+use io 
+
+main(args: int[][]) {
+  if(0) {
+    print("Pun likes women.")
+  } else {
+    print("Pun likes men.")
+  }
+}

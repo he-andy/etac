@@ -1,0 +1,6 @@
+use old
+use new
+
+f () {
+    a:int = foo(5);
+}

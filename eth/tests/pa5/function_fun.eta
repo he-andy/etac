@@ -1,0 +1,19 @@
+use io 
+use conv 
+
+f():int {
+  return 1
+}
+
+g():int {
+  return 2 
+}
+
+h():int {
+  return 3
+}
+
+main(args:int[][]) {
+  x:int, y:int, z:int = f(), g(), h()
+  println("x = " + unparseInt(x) + ", y = " + unparseInt(y) + ", z = " + unparseInt(z))
+}

@@ -1,0 +1,2 @@
+(() ((makeInverse ((base ([] int)) (inv ([] int))) () 
+ ((= (c int) 0)(while (< c 26) ((= ([] inv ([] base c)) c)(= c (+ c 1)))))) ))

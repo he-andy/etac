@@ -1,0 +1,8 @@
+main(args:int[][]) {
+  x:int = 1
+  y:int, z:int, w:int = f(x)
+}
+
+f(x:int):int, int, int {
+  return x, x*x, x*x*x
+}
